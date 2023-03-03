@@ -5,7 +5,7 @@
  * 2)Las expresionas lambda son funciones anonimas que nos permiten realizar operacionas como filtrado, busqueda de indices u objetos, ordenamientos,etc
  * en arreglos.
  * List<int> Enteros = new List<int>();
-   int promedio = ((int)Enteros.Average());
+   int promedio = ((int)Enteros.Average()); //CORRECCIÓN: ESTO NO ES UNA EXPRESIÓN LAMBDA, ES UN MÈTODO LINQ
  * 3)En un parametro por valor se copia el valor original en la direccion de memoria ocupada en ese momento. Si dentro del metodo se modifica el valor
  * de este parametro, el valor original no se vera afectado. En un parametro por referencia no da precisamente un valor como parametro, sino la direc65cion
  * de memoria donde esta el valor original. Por lo tanto, si este valor se modifica dentro de el metodo, el original tambien se modificara. Usa la palabra reservada ref.

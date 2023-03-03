@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Trybook
 {
+    //CORRECCIONES: BAJO PUNTOS POR LA AGRUPACIÓN INNECESARIA DE LAS CLASES.
     public class Logica
     {
         public List<Usuario> Usuarios = new List<Usuario>();
@@ -33,6 +34,7 @@ namespace Trybook
                 if (Usuarios[index].VIP)
                 {
 
+//CORRECCIÓN: HAY FORMA DE RESOLVERLO USANDO UN UNICO FOREACH
                     foreach (Herramienta herramienta1 in Herramientas)
                     {
                         ReturnHerramientas herramientanueva = new ReturnHerramientas();
